@@ -261,7 +261,7 @@ a {
 .login-snip .sign-in:checked+.tab,
 .login-snip .sign-up:checked+.tab {
     color: #fff;
-    border-color: #1161ee
+    border-color: #14db67;
 }
 
 .login-space {
@@ -302,7 +302,12 @@ a {
 }
 
 .login-space .group .button {
-    background: #1161ee
+    background: #338f5a;
+    outline: none;
+}
+
+.login-space .group .button:hover{
+	background: #1c5c49;
 }
 
 .login-space .group label .icon {
@@ -402,3 +407,7 @@ a {
     color: #b3b3b3
 }
 
+
+.input{
+	outline: none;
+}
